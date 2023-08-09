@@ -28,19 +28,25 @@
                 You know you want to.
             </div>
             <div class="form-container">
-                <form action="#" class="register">
-                    <label for="fname">First name</label>
-                    <input type="text" name="fname" id="fname">
-                    <label for="lname">Last name</label>
-                    <input type="text" name="lname" id="lname">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="phone">Phone Number</label>
-                    <input type="number" name="phone" id="phone">
-                    <label for="pw">Password</label>
-                    <input type="password" name="pw" id="pw">
-                    <label for="confirm-pw">Confirm Password</label>
-                    <input type="password" name="confirm-pw" id="confirm-pw">
+                <h2 class="form-header">Let's do this!</h2>
+                <form class="regform" action="#" method="post" class="register">
+                    <div class="form-left">
+                        <label for="fname">First name</label>
+                        <input type="text" name="fname" id="fname" placeholder="Jamie">
+                        <label for="lname">Last name</label>
+                        <input type="text" name="lname" id="lname" placeholder="Sutton">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="jamiesutton@hey.com">
+                    </div>
+
+                    <div class="form-right">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone" placeholder="+1 647-239-5037">
+                        <label for="pw">Password</label>
+                        <input type="password" name="pw" id="pw">
+                        <label for="confirm-pw">Confirm Password</label>
+                        <input type="password" name="confirm-pw" id="confirm-pw">
+                    </div>
                 </form>
             </div>
             <div class="cta-container">

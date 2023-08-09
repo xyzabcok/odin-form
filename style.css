@@ -23,10 +23,7 @@ body {
 
 .form-container {
     background-color: white;
-    height: 300px;
     width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .left {
@@ -87,8 +84,51 @@ button.cta {
     font-weight: bolder;
 }
 
-.cta-container {
-    /* display: flex;
+.regform {
+    display: flex;
+    max-width: 600px;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-content: space-around;  */
+    /* max-height: 75%; */
+}
+
+.form-left {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start; */
+    margin-right: 10%;
+
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    margin-left: 8%;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 0.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.regform>input:focus {
+    border-color: blue;
+}
+
+input:required {
+    border-color: yellow;
+}
+
+input:invalid {
+    border-color: red;
 }
